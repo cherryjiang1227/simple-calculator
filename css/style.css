@@ -1,0 +1,46 @@
+body {
+    min-height: 100vh; /* full screen height */
+    display: grid; 
+    place-items: start center;  /* vertical and horizontal alignment */
+    background: #e6e6e6;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.calculator {
+    background: #5a6168;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 1000px;
+}
+
+#display {
+    width: 95%;
+    margin-bottom: 15px;
+    height: 40px;
+    text-align: right;
+    font-size: 22px;
+    padding: 5px;
+    background: white; 
+    font-family: "Courier New", Courier, monospace;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 80px;        
+    font-weight: 400;      
+    margin-bottom: 30px;
+}
